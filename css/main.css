@@ -57,7 +57,9 @@ ul.topnav li a.active {background-color: white; color: black; transform: 0.5s;}
   text-shadow: 4px 4px 4px black;
 }
 .headers {
+    color: white;
     font-family: 'Russo One', sans-serif;
+    text-shadow: 4px 4px 4px black;
 }
 #header {
     color: black;
@@ -110,6 +112,7 @@ ul.topnav li a.active {background-color: white; color: black; transform: 0.5s;}
     box-shadow: 5px 5px 5px grey;
 }
 .terminal-prompt {
+    z-index: 2;
     color: #00FF00;
     font-family: sans-serif;
     font-weight: bolder;
@@ -123,4 +126,35 @@ ul.topnav li a.active {background-color: white; color: black; transform: 0.5s;}
 }
 .typed-cursor {
     opacity: 0;
+}
+.hero-section1 {
+    background: url("https://touchcoreltd.com/wp-content/uploads/2016/07/covertouch.jpg") 50% no-repeat;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.links {
+    font-weight: bolder;
+    color:black;
+    text-decoration: none;
+}
+.links:hover {
+    transition: 0.5s;
+    color: #3d3d3d;
+}
+.links:active {
+    color: #3d3d3d;
+}
+.links:visited {
+    text-decoration: none;
+    color: black;
 }
