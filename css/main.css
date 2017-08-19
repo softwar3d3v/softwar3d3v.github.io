@@ -106,7 +106,7 @@ ul.topnav li a.active {background-color: white; color: black; transform: 0.5s;}
     font-family: 'Saria Condensed', sans-serif;
 }
 #terminal {
-    width: 150vh;
+    width: 100vh;
     height: 65vh;
     background: black;
     box-shadow: 5px 5px 5px grey;
