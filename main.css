@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Saira+Condensed:100');
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: white; color: black; transition: 0.5s; }
+
+ul.topnav li a.active {background-color: white; color: black; transform: 0.5s;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+.hero-section {
+    background: url("https://colinprior.co.uk/wp/wp-content/uploads/images/Lobsang-Towers-Karakoram-Mountains-Pakistan.jpg") 50% no-repeat;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section .hero-section-text {
+  color: white;
+  text-shadow: 4px 4px 4px black;
+}
+.headers {
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    text-shadow: 4px 4px 4px black;
+}
+#header {
+    color: black;
+    text-align: center;
+    text-shadow: 3px 3px 3px grey;
+}
+.paragraphs {
+    overflow: hidden;
+    max-width: 50ch;
+    text-align: center;
+    text-indent: 50px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.first-letter {
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 25px;
+    font-family: 'Russo One', sans-serif;
+    color: black;
+    text-shadow: 3px 3px 3px grey;
+
+}
+.foot {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+    float: right;
+    padding-right: 10px;
+}
+.copyright {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+    background-color: black;
+    color: white;
+    vertical-align: center;
+    font-family: 'Saria Condensed', sans-serif;
+}
+#terminal {
+    width: 150vh;
+    height: 65vh;
+    background: black;
+    box-shadow: 5px 5px 5px grey;
+}
+.terminal-prompt {
+    z-index: 2;
+    color: #00FF00;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-top: 2px;
+    text-align: left;
+}
+.typed2 {
+    font-size: 20px;
+    color: red;
+}
+.typed-cursor {
+    opacity: 0;
+}
+.hero-section1 {
+    background: url("https://touchcoreltd.com/wp-content/uploads/2016/07/covertouch.jpg") 50% no-repeat;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.links {
+    font-weight: bolder;
+    color:black;
+    text-decoration: none;
+}
+.links:hover {
+    transition: 0.5s;
+    color: #3d3d3d;
+}
+.links:active {
+    color: #3d3d3d;
+}
+.links:visited {
+    text-decoration: none;
+    color: black;
+}
