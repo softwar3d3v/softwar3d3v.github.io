@@ -33,7 +33,7 @@ ul.topnav li a:hover:not(.active) {background-color: white; color: black; transi
 ul.topnav li a.active {background-color: white; color: black; transform: 0.5s;}
 
 @media screen and (max-width: 600px){
-    ul.topnav li.right, 
+    ul.topnav li.right,
     ul.topnav li {float: none;}
 }
 .hero-section {
@@ -157,4 +157,20 @@ ul.topnav li a.active {background-color: white; color: black; transform: 0.5s;}
 .links:visited {
     text-decoration: none;
     color: black;
+}
+.chat-box {
+    width: 75vh;
+    height: 50vh;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+}
+.messages {
+  list-style: none;
+  width: 100vh;
+}
+.messages:nth-child(odd) {
+  background-color: black;
+  color: white;
 }
