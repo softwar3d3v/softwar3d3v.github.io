@@ -105,7 +105,7 @@ ul.topnav li a.active {background-color: white; color: black; transform: 0.5s;}
 }
 #terminal {
     width: 150vh;
-    height: 70vh;
+    height: 65vh;
     background: black;
     box-shadow: 5px 5px 5px grey;
 }
@@ -116,4 +116,11 @@ ul.topnav li a.active {background-color: white; color: black; transform: 0.5s;}
     padding-left: 10px;
     padding-top: 2px;
     text-align: left;
+}
+.typed2 {
+    font-size: 20px;
+    color: red;
+}
+.typed-cursor {
+    opacity: 0;
 }
