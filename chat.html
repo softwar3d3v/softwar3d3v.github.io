@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat | snhs-r3c0n</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js">
+        </script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="js/client.js"></script>
+    </head>
+    <body>
+        <ul class="topnav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a class="active" href="chat.html">Chat</a></li>
+        </ul>
+        <h1 class="headers" id="header">Chat | snhs-r3c0n</h1>
+        <center>
+            <p class="paragraphs">
+                <span class="first-letter">W</span>elcome to the coolest part of this web page, the chat application! On this chat application, you can have a realtime conversation with the people that are on this page. Written in Node.js, this web app can handle a large amount of users and can filter out nasty language. Plus, you can set a nickname to show who you are on the chat. I hope you enjoy it!
+            </p>
+        </center>
+        <br>
+        <br>
+        <center>
+            <div class="chat-box">
+                <ul id="thread"></ul>
+            </div>
+                <br>
+                <form>
+                    <input id="message" type="text" placeholder="Message"/>
+                    <input type="submit" value="send"/>
+                </form>
+        </center>
+    </body>
+</html>
