@@ -13,6 +13,6 @@ io.on('connection', function(socket){
        io.emit('chat message', msg); 
     });
 });
-http.listen(port, '10.0.0.143', function() {
+http.listen(port, 'https://snhs-r3c0nn.herokuapp.com/', function() {
     console.log('Listening on *:' + port);
 });
