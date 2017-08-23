@@ -13,6 +13,6 @@ io.on('connection', function(socket){
        io.emit('chat message', msg); 
     });
 });
-http.listen(port, function() {
+http.listen(port, '10.0.0.143', function() {
     console.log('Listening on *:' + port);
 });
