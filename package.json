@@ -1,0 +1,22 @@
+{
+  "name": "snhs-r3c0n.github.io",
+  "version": "1.0.1",
+  "description": "Website with a node.js chat application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/SullivanNorthHS/snhs-r3c0n.github.io"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Taylor Puckett",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3"
+  }
+}

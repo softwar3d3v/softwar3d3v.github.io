@@ -27,14 +27,27 @@
         <br>
         <br>
         <center>
-            <div class="chat-box">
-                <ul id="thread"></ul>
-            </div>
-                <br>
-                <form>
-                    <input id="message" type="text" placeholder="Message"/>
-                    <input type="submit" value="send"/>
+            <div class="message-box">
+                <ul id="messages"></ul>
+                <form action="">
+                    <input id="m" autocomplete="off"/><button class="send">Send</button>
+
                 </form>
+            </div>
+            <script>
+                $(function () {
+                    var socket = io();
+                    $('form').submit(function() {
+                        socket.emit('chat message', $('#m').val());
+                        $('#m').val('');
+                        return false;
+                    });
+                    socket.on('chat message', function(msg) {
+                        $('#messages').append($('<li>').text(msg));
+                        $('message-').scrollTo(0, document.body.scrollHeight);
+                    });
+                });
+            </script>
         </center>
         <br>
         <br>
