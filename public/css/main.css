@@ -165,12 +165,16 @@ ul.topnav li a.active {background-color: white; color: black; transform: 0.5s;}
     border-bottom: 5px solid black;
     border-left: 5px solid black;
     border-top: 5px solid black;
+    max-height: 50vh;
+    overflow: scroll;
 }
 #messages {
-  list-style: none;
-  width: 100vh;
+    list-style: none;
+    width: 75vh;
+    padding: 0;
+    margin-top: 0;
 }
-#messages:nth-child(odd) {
+#messages li:nth-child(odd) {
   background-color: black;
   color: white;
 }
@@ -188,4 +192,5 @@ ul.topnav li a.active {background-color: white; color: black; transform: 0.5s;}
     color: white;
     height: 30px;
     width: 10vh;
+    bottom: 0;
 }
