@@ -2,7 +2,8 @@ var express = require('express');
 var app     = express();
 var http    = require('http').Server(app);
 var io      = require('socket.io')(http);
-var port    = 8000;
+var port    = 80;
+var profanity = require('profanity-middleware');
 
 app.use(express.static(__dirname + '/public'))
 app.get('/', function(req, res){
